@@ -6,4 +6,4 @@ docker build -t hands-on-jenkins/myapp .
 docker images | grep hands-on-jenkins/myapp
 
 # run docker container
-docker run -p 8001:8000 --name myapp hands-on-jenkins/myapp 
+docker run -p 8001:5000 --name myapp hands-on-jenkins/myapp 
