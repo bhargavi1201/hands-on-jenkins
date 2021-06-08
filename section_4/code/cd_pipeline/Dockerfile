@@ -13,7 +13,7 @@ COPY app.py /usr/src/app/
 COPY templates/index.html /usr/src/app/templates/
 
 # Tell the port number the container should expose
-EXPOSE 5000
+EXPOSE 8000
 
 # Run the application
 CMD ["python3", "/usr/src/app/app.py"]
