@@ -3,20 +3,19 @@ import random
 
 app = Flask(__name__)
 
-# list of cat images
+# list of dog images
 images = [
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26383-1381845104-25.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26358-1381845043-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-25329-1381845415-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-23859-1381845509-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19708-1381845008-7.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-19667-1381844937-10.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3409-1381844582-13.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-3391-1381844336-26.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-1376-1381846217-0.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26390-1381844163-18.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-26388-1381844103-11.gif",
-    "http://www.catshaming.co.uk/wp-content/uploads/2014/11/anigif_enhanced-buzz-27162-1381845360-0.gif"
+    "https://tenor.com/view/dog-sweep-hair-shocked-scared-gif-15766698",
+    "https://tenor.com/view/no-toilet-paper-wiping-cleaning-spring-hectic-gif-16593196",
+    "https://tenor.com/view/poop-toilet-paper-shortage-wipe-gif-16838273",
+    "https://tenor.com/view/poop-elmo-pooping-gif-5112871",
+    "https://tenor.com/view/relax-chill-dog-cute-swing-gif-16656710",
+    "https://tenor.com/view/corgi-dogs-gif-9077936",
+    "https://tenor.com/view/dog-puppy-cute-playful-dog-tongue-out-gif-15159934",
+    "https://tenor.com/view/dog-sweep-hair-shocked-scared-gif-15766698",
+    "https://tenor.com/view/no-toilet-paper-wiping-cleaning-spring-hectic-gif-16593196",
+    "https://tenor.com/view/poop-toilet-paper-shortage-wipe-gif-16838273",
+    "https://tenor.com/view/poop-elmo-pooping-gif-5112871"
 ]
 
 @app.route('/')
