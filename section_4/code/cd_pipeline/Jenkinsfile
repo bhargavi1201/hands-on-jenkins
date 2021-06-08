@@ -46,7 +46,7 @@ pipeline {
 		}
 
 		stage("Test - UAT Live") {
-            steps { runUAT(80) }
+            steps { runUAT(82) }
 		}
 
 	}
@@ -76,7 +76,7 @@ def deploy(environment) {
 	}
 	else if ("${environment}" == 'live') {
 		containerName = "app_live"
-		port = "80"
+		port = "82"
 	}
 	else {
 		println "Environment not valid"
